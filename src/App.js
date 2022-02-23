@@ -1,6 +1,8 @@
-import './App.css';
 import { useState } from "react";
 import { fetchRequest, fetchDelete, fetchUpdate, fetchList } from './utils';
+import { FrontPage } from './components/frontPage';
+import { Route, Routes } from 'react-router-dom';
+import { Messages } from './components/messagePage';
 
 const App = () => {
 
@@ -30,26 +32,31 @@ const App = () => {
 
   return (
     <div>
-      <h1>{user ? `Welcome ${user}` : `Please sign up`}</h1>
-      <form onSubmit={submitHandler}>
+      {/* Front page */}
+      {/* <FrontPage /> */}
+
+      {/* <h1>{user ? `Welcome ${user}` : `Please sign up`}</h1> */}
+      {/* <form onSubmit={submitHandler}>
         <input onChange={(e) => setUsername(e.target.value)} />
         <input onChange={(e) => setEmail(e.target.value)} />
         <input onChange={(e) => setPassword(e.target.value)} />
-  {/* Because our button is now in form we change type to submit */}
         <button type='submit'>Sign up</button>
-      </form>
-      <form onSubmit={submitDelete}>
-  {/* Because our button is now in form we change type to submit */}
+      </form> */}
+      {/* <form onSubmit={submitDelete}>
         <button type='submit'>Delete</button>
-      </form>
-      <form onSubmit={submitUpdate}>
-  {/* Because our button is now in form we change type to submit */}
+      </form> */}
+      {/* <form onSubmit={submitUpdate}>
         <button type='submit'>Update</button>
-      </form>
+      </form> */}
       <form onSubmit={submitList}>
-  {/* Because our button is now in form we change type to submit */}
-        <button type='submit'>List</button>
+        {/* <button type='submit'>List</button> */}
       </form>
+
+
+      <Routes>
+        <Route path="/" element={<FrontPage />} exact/>
+        <Route path="/messages" element={<Messages />} />
+      </Routes>
     </div>
   );
 }

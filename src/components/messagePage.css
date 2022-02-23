@@ -1,0 +1,18 @@
+* {
+    margin: 0; padding: 0;
+}
+
+.title{
+    text-align: center;
+    margin-top: 2%;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+button {
+    display: block;
+    margin: auto;
+}

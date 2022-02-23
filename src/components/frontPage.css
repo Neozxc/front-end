@@ -1,0 +1,74 @@
+* {
+    margin: 0; padding: 0;
+    text-decoration: none;
+  }
+  
+  .instagramlogo {
+    max-width: 7%;
+    position: absolute;
+    left: 25%;
+    top: 2%;
+  }
+  
+  .search {
+    position: absolute;
+    left: 43%;
+    top: 1.7%;
+  }
+  
+  .search input {
+    padding: 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+    padding-left: 20%;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 230, 230);
+  }
+  
+  .magglass {
+    position: absolute;
+    top: 25%;
+    right: 86%;
+  }
+  
+  
+  .navbar ul {
+    margin-top: 0.5%;
+    margin-left: 59%;
+    font-size: 140%;
+  }
+  
+  .navbar li{
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 3.5%;
+  }
+  
+  .navbar a{
+    color: black;
+  }
+  
+  .navinput {
+    position: absolute;
+    left: 40%;
+    top: 2%;
+    border-radius: 2px;
+  }
+  
+  .linetop {
+    position: static;
+    border-top: 1px solid rgb(177, 177, 177, 0.1);
+  }
+  .linebot {
+    position: static;
+    border-bottom: 1px solid rgb(177, 177, 177, 0.4);
+    padding-bottom: 1%;
+  }
+  
+  .onload {
+    position: absolute;
+    top: 15%;
+    left: 27.5%;
+    width: 30%;
+  }

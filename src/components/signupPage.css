@@ -1,0 +1,18 @@
+* {
+    margin: 0; padding: 0;
+}
+
+h2 {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.regform {
+    margin-top: 2%;
+    text-align: center;
+}
+
+button {
+    margin-top: 1%;
+    padding: 0.5%;
+}

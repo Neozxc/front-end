@@ -17,7 +17,7 @@ export const FrontPage = () => {
         <ul>
           <li><Link to="/"><FontAwesomeIcon icon={faHome}/></Link></li>
           <li><Link to="/messages"><FontAwesomeIcon icon={faPaperPlane}/></Link></li>
-          <li><FontAwesomeIcon icon={faSquarePlus}/></li>
+          <li><Link to="/register"><FontAwesomeIcon icon={faSquarePlus}/></Link></li>
           <li><FontAwesomeIcon icon={faCompass}/></li>
           <li><FontAwesomeIcon icon={faHeart}/></li>
         </ul>
